@@ -13,6 +13,8 @@ export class BasicosComponent implements OnInit {
   nombreUpper: string = 'BATMAN';
   nombreCompleto: string = 'aLaN CoRtEs';
 
+  fecha: Date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {
